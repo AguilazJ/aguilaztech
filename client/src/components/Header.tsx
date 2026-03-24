@@ -5,7 +5,7 @@
 import { Monitor, MessageCircle, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
-const WA_NUMBER = "TU_NUMERO_WHATSAPP";
+const WA_NUMBER = "+5491154668178";
 const WA_MSG = encodeURIComponent("Hola! Quiero consultar sobre el servicio técnico de PC.");
 
 export default function Header() {
