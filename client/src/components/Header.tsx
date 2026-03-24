@@ -62,8 +62,8 @@ export default function Header() {
           {/* CTA Button */}
           <div className="flex items-center gap-3">
             <a
-              href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG}`}
-              target="_blank"
+              href={`https://wa.me/5491154668178`}
+                target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition-all shadow-sm hover:shadow-md"
             >
