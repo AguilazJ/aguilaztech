@@ -4,7 +4,7 @@
 */
 import { MessageCircle, MapPin, Monitor } from "lucide-react";
 
-const WA_NUMBER = "TU_NUMERO_WHATSAPP";
+const WA_NUMBER = "5491154668178";
 const WA_MSG_PRESUPUESTO = encodeURIComponent("Hola! Quiero solicitar un presupuesto para mi PC.");
 
 interface FooterProps {
@@ -31,8 +31,8 @@ export default function Footer({ onOpenModal }: FooterProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG_PRESUPUESTO}`}
-              target="_blank"
+              href={`https://wa.me/5491154668178`}
+                target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2.5 bg-green-500 hover:bg-green-400 text-white font-bold text-base px-8 py-4 rounded-xl transition-all shadow-lg hover:shadow-green-500/30 hover:shadow-xl"
             >
