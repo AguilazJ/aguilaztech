@@ -6,7 +6,7 @@
 import { MessageCircle, ChevronDown, MapPin, Clock } from "lucide-react";
 import { useState } from "react";
 
-const WA_NUMBER = "+5491154668178";
+const WA_NUMBER = "5491154668178";
 const WA_MSG_DIAGNOSTICO = encodeURIComponent("Hola! Quiero solicitar un diagnóstico para mi PC.");
 
 interface HeroProps {
