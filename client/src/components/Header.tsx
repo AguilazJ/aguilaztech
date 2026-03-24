@@ -41,7 +41,7 @@ export default function Header() {
               <Monitor className="w-5 h-5 text-white" />
             </div>
             <div className="leading-tight">
-              <span className="block text-sm font-bold text-blue-700 font-[Sora]">TécnicoPC</span>
+              <span className="block text-sm font-bold text-blue-700 font-[Sora]">mamita dame ese culito</span>
               <span className="block text-[10px] text-gray-500 font-[Nunito_Sans] leading-none">Mar del Plata</span>
             </div>
           </a>
