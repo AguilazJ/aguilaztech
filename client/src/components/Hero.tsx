@@ -6,7 +6,7 @@
 import { MessageCircle, ChevronDown, MapPin, Clock } from "lucide-react";
 import { useState } from "react";
 
-const WA_NUMBER = "TU_NUMERO_WHATSAPP";
+const WA_NUMBER = "+5491154668178";
 const WA_MSG_DIAGNOSTICO = encodeURIComponent("Hola! Quiero solicitar un diagnóstico para mi PC.");
 
 interface HeroProps {
@@ -41,7 +41,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
             {/* Main Title */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight font-[Sora]">
               Servicio Técnico{" "}
-              <span className="text-blue-400">PC</span>{" "}
+              <span className="text-blue-400">PC y Camaras de Seguridad</span>{" "}
               <span className="block">A Domicilio</span>
             </h1>
 
@@ -70,8 +70,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <a
-                href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG_DIAGNOSTICO}`}
-                target="_blank"
+                href={`https://wa.me/5491154668178?text=${WA_MSG_DIAGNOSTICO}`}
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2.5 bg-green-500 hover:bg-green-400 text-white font-bold text-base px-6 py-3.5 rounded-xl transition-all shadow-lg hover:shadow-green-500/30 hover:shadow-xl"
               >
