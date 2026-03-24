@@ -41,7 +41,7 @@ export default function Hero({ onOpenModal }: HeroProps) {
             {/* Main Title */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight font-[Sora]">
               Servicio Técnico{" "}
-              <span className="text-blue-400">PC y Camaras de Seguridad</span>{" "}
+              <span className="text-blue-400">PC y Cámaras de Seguridad</span>{" "}
               <span className="block">A Domicilio</span>
             </h1>
 
