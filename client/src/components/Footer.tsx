@@ -59,7 +59,7 @@ export default function Footer({ onOpenModal }: FooterProps) {
                 <Monitor className="w-5 h-5 text-white" />
               </div>
               <div>
-                <span className="block text-sm font-bold text-white font-[Sora]">TécnicoPC</span>
+                <span className="block text-sm font-bold text-white font-[Sora]">Aguila Tech</span>
                 <span className="block text-xs text-gray-500 font-[Nunito_Sans]">Mar del Plata</span>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Footer({ onOpenModal }: FooterProps) {
               </div>
               <span className="hidden sm:block text-gray-600">•</span>
               <a
-                href={`https://wa.me/${WA_NUMBER}`}
+                href={`https://wa.me/5491154668178`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-green-400 hover:text-green-300 transition-colors"
